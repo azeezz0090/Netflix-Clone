@@ -1,0 +1,181 @@
+@media screen and (max-width:960px) {
+
+
+    .overlay{
+        height: 90vh;
+    }
+    header{
+        height: 90vh;
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .header-top{
+        img{
+            width: 120px;
+        }
+    }
+    a{
+        padding: .5rem .9rem !important;
+    }
+
+    .header-middle{
+        padding-bottom: 6rem !important;
+        h4{
+            font-size: 32px;
+        }
+        p{
+            font-size: 18px;
+            letter-spacing: normal;
+        }
+        span{
+            letter-spacing: normal;
+            font-size: 18px;
+        }
+    }
+
+
+
+
+    #filmShow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 4rem 6rem 4rem;
+        .left-filmShow{
+            transform: none;
+            text-align: center;
+            padding-right: 0;
+            h4{
+                font-size: 32px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+
+        .right-filmShow{
+            video{
+                width: 500px;
+            }
+            img{
+                width: 650px;
+            }
+        }
+    }
+
+    #download{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        .download-left{
+            padding-top: 0%;
+            .phone-img{
+                width: 630px;
+            }
+            .download-status-con{
+                width: 400px;
+            }
+        }
+        .download-right{
+            padding: 0;
+            text-align: center;
+            h4{
+                font-size: 32px;
+            }
+            p{
+                font-size:18px;
+                margin-top: 10px;
+            }
+        }
+
+        
+    }
+
+    .FQA-title{
+        font-size: 32px;
+    }
+
+    
+}
+
+@media screen and (max-width:860px){
+    #download{
+      
+        .download-left{
+            .phone-img{
+                width: 530px;
+            }
+            .download-status-con{
+                width: 300px;
+            }
+        }
+       
+    }
+
+    .FQA-title{
+        font-size: 24px !important;
+    }
+    .accordion-container{
+        width: 97% !important; 
+        .accordion {
+            font-size: 18px !important;
+        }
+    }
+    .footer{
+        padding: 3rem !important;
+    }
+    .short-links{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+}
+
+
+@media screen and (max-width:700px) {
+    .input-group{
+        margin-top: 20px;
+        form{
+            flex-direction: column !important;
+            a{
+                width: 250px !important;
+            }
+            input{
+                width: 300px !important;
+            }
+        }
+
+    }
+
+    
+    .right-filmShow{
+        video{
+            width: 300px !important;
+        }
+        img{
+            width: 450px !important;
+        }
+    }
+
+    .download-right{
+        padding: 0 !important;
+        text-align: center;
+        // background-color: green;
+        min-width: 350px;
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-size:15px;
+        }
+    }
+
+    .panel{
+        p{
+            font-size: 18px !important;
+        }
+    }
+
+}

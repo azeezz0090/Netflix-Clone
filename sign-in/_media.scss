@@ -1,0 +1,120 @@
+@media screen and (max-width:900px) {
+    .logo{
+        width: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+
+    body{
+        background: black !important;
+    }
+
+    .sign-container{
+        .sign{
+            width: 100% !important;
+            margin-top: 20px;
+        }
+    }
+
+    .sign-foot{
+            padding: 2rem 2rem 4rem 2rem !important;
+            .short-links{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+    }
+
+    hr{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    
+}
+
+
+// @ 900PX MIN-HEIGHT 
+
+@media screen and (min-height:900px) {
+    body{
+        max-height: 120vh !important;
+        background: black !important;
+    }
+
+    .sign-container{
+        height: 70vh;
+        width: 100% !important;
+    }
+}
+
+
+// @ 700PX MIN-HEIGHT 
+@media screen and (min-height:700px) {
+    body{
+        max-height: 120vh !important;
+        background: black !important;
+    }
+
+    .sign-container{
+        height: 60vh;
+    }
+
+    .sign-foot{
+       height: 30vh;
+       padding-bottom: 1rem !important;
+       padding-top: 2rem !important;
+    
+    }
+}
+
+
+
+
+// @ 1100PX MIN-HEIGHT 
+
+@media screen and (min-height:1100px) {
+
+    body{
+        max-height: 100vh !important;
+        background: black !important;
+    }
+
+    .sign-container{
+        height: 70vh;
+    }
+
+    .sign-foot{
+       height: 25vh;
+    
+    }
+
+}
+
+
+
+// @ 800PX MAX-WIDTH
+
+@media screen and (max-width:800px) {
+    .sign-container{
+        width: 100% !important;
+        .sign{
+            width: 100% !important;
+            padding: 3rem 0rem 0 0rem !important;
+        }
+    }
+}
+
+
+
+// @ 500PX MAX-WIDTH
+@media screen and (max-width:500px) {
+    .sign-container{
+        width: 100% !important;
+        .sign{
+            width: 100% !important;
+        }
+    }
+}
